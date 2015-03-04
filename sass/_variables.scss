@@ -1,0 +1,23 @@
+@import "../lib/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+
+// Colors
+
+$red: #dc0067;
+$yellow: #ffb400;
+$blue: #009ee0;
+
+
+// Fonts
+
+$open-sans: "Open Sans", sans-serif;
+
+
+$font-family-sans-serif: $open-sans;
+$font-family-base: $open-sans;
+
+$thumbnail-border: $blue;
+$thumbnail-border-radius: 0;
+
+$headings-color: $red;
+$headings-font-weight: bold;
