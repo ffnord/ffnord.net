@@ -12,6 +12,7 @@ $blue: #009ee0;
 
 $open-sans: "Open Sans", sans-serif;
 
+//$text-color: $blue;
 
 $font-family-sans-serif: $open-sans;
 $font-family-base: $open-sans;
@@ -21,3 +22,16 @@ $thumbnail-border-radius: 0;
 
 $headings-color: $red;
 $headings-font-weight: bold;
+
+$link-color: $blue;
+$link-hover-color: $blue;
+
+$font-size-h1: 32px;
+
+$font-size-h2: $font-size-h3;
+$font-size-h3: $font-size-h5;
+$headings-color: $blue;
+
+$table-border-color: $blue;
+
+$table-bg-hover: $yellow;

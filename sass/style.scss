@@ -4,7 +4,35 @@
 @import "../lib/bootstrap-sass/assets/stylesheets/bootstrap";
 
 body {
-    padding: 10px;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid $blue;
+    line-height: 55px;
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    border-top: 3px solid $blue;
+    line-height: 35px;
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-right: 10px;
+}
+
+article {
+    padding: 0 10px;
+    margin-top: 55px;
+    margin-bottom: 40px;
 }
 
 .title-arrow {
@@ -13,4 +41,45 @@ body {
 
 .img-thumbnail {
     border-width: 3px;
+}
+
+h1 {
+    color: $red;
+    margin: 10px;
+    img {
+        width: 0.889em;
+    }
+
+    a, a:hover {
+        color: $red;
+        text-decoration: none;
+    }
+}
+
+a[target="_blank"]:after {
+    content: "\f08e";
+}
+
+a[href^="mailto:"]:after {
+    content: "\2709";
+    font-size: 1.0em;
+}
+
+a[target="_blank"]:after, a[href^="mailto:"]:after {
+    vertical-align: .3em;
+    font-size: .8em;
+    margin-left: .1em;
+}
+
+table th {
+    width: 100px;
+
+    &[colspan="2"] {
+        color: $blue;
+    }
+}
+
+.greetings {
+    color: $blue;
+    font-weight: bold;
 }

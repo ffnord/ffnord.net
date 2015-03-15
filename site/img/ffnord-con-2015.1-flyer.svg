@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="500"
-   height="707"
-   viewBox="0 0 499.99998 707.00001"
+   width="400"
+   height="565.59998"
+   viewBox="0 0 399.99998 565.59998"
    id="svg5884"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -38,17 +38,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="463.57143"
-     inkscape:cy="520"
+     inkscape:cx="462.57141"
+     inkscape:cy="519.00004"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1600"
-     inkscape:window-height="886"
+     inkscape:window-width="1920"
+     inkscape:window-height="1065"
      inkscape:window-x="0"
-     inkscape:window-y="14"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="15"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5889">
     <rdf:RDF>
@@ -65,9 +69,9 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-345.36216)">
+     transform="translate(-1.0000153,-485.7622)">
     <g
-       transform="translate(0.99999554,-101.00059)"
+       transform="matrix(0.8,0,0,0.8,0.99999643,129.47197)"
        id="g5401">
       <rect
          y="446.36279"
