@@ -56,21 +56,6 @@ h1 {
     }
 }
 
-a[target="_blank"]:after {
-    content: "\f08e";
-}
-
-a[href^="mailto:"]:after {
-    content: "\2709";
-    font-size: 1.0em;
-}
-
-a[target="_blank"]:after, a[href^="mailto:"]:after {
-    vertical-align: .3em;
-    font-size: .8em;
-    margin-left: .1em;
-}
-
 table th {
     width: 100px;
 
