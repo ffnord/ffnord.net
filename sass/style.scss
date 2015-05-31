@@ -7,31 +7,38 @@ body {
     margin: 0;
 }
 
+a, a:hover {
+    font-weight: bold;
+}
+
 header {
     position: fixed;
     top: 0;
-    border-bottom: 3px solid $blue;
+    border-bottom: 3px solid $red-light;
     line-height: 55px;
-    height: 60px;
+    height: 70px;
     width: 100%;
     background-color: #ffffff;
     z-index: 1;
+    text-align: center;
 }
 
 footer {
     position: fixed;
     bottom: 0;
-    border-top: 3px solid $blue;
+    border-top: 3px solid $red-light;
     line-height: 35px;
     height: 40px;
     width: 100%;
     background-color: #ffffff;
     padding-right: 10px;
+    font-family: $oswald-heavy;
+    font-weight: bold;
 }
 
 article {
     padding: 0 10px;
-    margin-top: 55px;
+    margin-top: 70px;
     margin-bottom: 40px;
 }
 
@@ -40,31 +47,60 @@ article {
 }
 
 .img-thumbnail {
-    border-width: 3px;
+    border: none;
+}
+
+.panel {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
 }
 
 h1 {
-    color: $red;
-    margin: 10px;
-    img {
-        width: 0.889em;
-    }
-
-    a, a:hover {
-        color: $red;
-        text-decoration: none;
-    }
+    margin: 15px;
 }
 
-table th {
-    width: 100px;
+h2, h3 {
+    font-family: $oswald-heavy;
+    font-weight: bold;
+}
 
-    &[colspan="2"] {
+table {
+    &.table-bordered {
+        & > thead > tr,
+        & > tbody > tr,
+        & > tfoot > tr {
+            & > th,
+            & > td {
+                border: 3px solid $table-border-color;
+            }
+        }
+    }
+
+    th {
+        width: 100px;
+
+        font-family: $oswald-heavy;
+        font-weight: bold;
+
         color: $blue;
+
+        &[colspan="2"] {
+            color: $red;
+            font-size: 18px;
+        }
     }
 }
 
 .greetings {
-    color: $blue;
+    color: $red;
+    font-family: $oswald-heavy;
+    font-weight: bold;
+    font-size: $font-size-h2;
+    text-align: right;
+}
+
+.back {
+    font-family: $oswald-heavy;
     font-weight: bold;
 }

@@ -4,13 +4,16 @@
 // Colors
 
 $red: #dc0067;
+$red-light: #e44082;
 $yellow: #ffb400;
+$yellow-light: #ffc640;
 $blue: #009ee0;
 
 
 // Fonts
 
 $open-sans: "Open Sans", sans-serif;
+$oswald-heavy: "Oswald Heavy", sans-serif;
 
 //$text-color: $blue;
 
@@ -30,8 +33,8 @@ $font-size-h1: 32px;
 
 $font-size-h2: $font-size-h3;
 $font-size-h3: $font-size-h5;
-$headings-color: $blue;
+$headings-color: $red;
 
-$table-border-color: $blue;
+$table-border-color: $red-light;
 
-$table-bg-hover: $yellow;
+$table-bg-hover: $yellow-light;

@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: "Oswald Heavy";
+  src: url("../fonts/Oswald-Heavy.ttf"); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -1143,7 +1146,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: bold;
   line-height: 1.1;
-  color: #009ee0; }
+  color: #dc0067; }
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -2184,10 +2187,10 @@ th {
     padding: 8px;
     line-height: 1.42857;
     vertical-align: top;
-    border-top: 1px solid #009ee0; }
+    border-top: 1px solid #e44082; }
   .table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #009ee0; }
+    border-bottom: 2px solid #e44082; }
   .table > caption + thead > tr:first-child > th,
   .table > caption + thead > tr:first-child > td,
   .table > colgroup + thead > tr:first-child > th,
@@ -2196,7 +2199,7 @@ th {
   .table > thead:first-child > tr:first-child > td {
     border-top: 0; }
   .table > tbody + tbody {
-    border-top: 2px solid #009ee0; }
+    border-top: 2px solid #e44082; }
   .table .table {
     background-color: #fff; }
 
@@ -2209,14 +2212,14 @@ th {
   padding: 5px; }
 
 .table-bordered {
-  border: 1px solid #009ee0; }
+  border: 1px solid #e44082; }
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td,
   .table-bordered > tbody > tr > th,
   .table-bordered > tbody > tr > td,
   .table-bordered > tfoot > tr > th,
   .table-bordered > tfoot > tr > td {
-    border: 1px solid #009ee0; }
+    border: 1px solid #e44082; }
   .table-bordered > thead > tr > th,
   .table-bordered > thead > tr > td {
     border-bottom-width: 2px; }
@@ -2225,7 +2228,7 @@ th {
   background-color: #f9f9f9; }
 
 .table-hover > tbody > tr:hover {
-  background-color: #ffb400; }
+  background-color: #ffc640; }
 
 table col[class*="col-"] {
   position: static;
@@ -2327,7 +2330,7 @@ table th[class*="col-"] {
       margin-bottom: 15px;
       overflow-y: hidden;
       -ms-overflow-style: -ms-autohiding-scrollbar;
-      border: 1px solid #009ee0; }
+      border: 1px solid #e44082; }
       .table-responsive > .table {
         margin-bottom: 0; }
         .table-responsive > .table > thead > tr > th,
@@ -4674,7 +4677,7 @@ a.list-group-item-danger {
 .panel > .panel-body + .table-responsive,
 .panel > .table + .panel-body,
 .panel > .table-responsive + .panel-body {
-  border-top: 1px solid #009ee0; }
+  border-top: 1px solid #e44082; }
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0; }
@@ -5624,53 +5627,75 @@ button.close {
 body {
   margin: 0; }
 
+a, a:hover {
+  font-weight: bold; }
+
 header {
   position: fixed;
   top: 0;
-  border-bottom: 3px solid #009ee0;
+  border-bottom: 3px solid #e44082;
   line-height: 55px;
-  height: 60px;
+  height: 70px;
   width: 100%;
   background-color: #ffffff;
-  z-index: 1; }
+  z-index: 1;
+  text-align: center; }
 
 footer {
   position: fixed;
   bottom: 0;
-  border-top: 3px solid #009ee0;
+  border-top: 3px solid #e44082;
   line-height: 35px;
   height: 40px;
   width: 100%;
   background-color: #ffffff;
-  padding-right: 10px; }
+  padding-right: 10px;
+  font-family: "Oswald Heavy", sans-serif;
+  font-weight: bold; }
 
 article {
   padding: 0 10px;
-  margin-top: 55px;
+  margin-top: 70px;
   margin-bottom: 40px; }
 
 .title-arrow {
   margin: 0 7px; }
 
 .img-thumbnail {
-  border-width: 3px; }
+  border: none; }
+
+.panel {
+  border: none;
+  box-shadow: none;
+  border-radius: 0; }
 
 h1 {
-  color: #dc0067;
-  margin: 10px; }
-  h1 img {
-    width: 0.889em; }
-  h1 a, h1 a:hover {
-    color: #dc0067;
-    text-decoration: none; }
+  margin: 15px; }
 
+h2, h3 {
+  font-family: "Oswald Heavy", sans-serif;
+  font-weight: bold; }
+
+table.table-bordered > thead > tr > th, table.table-bordered > thead > tr > td, table.table-bordered > tbody > tr > th, table.table-bordered > tbody > tr > td, table.table-bordered > tfoot > tr > th, table.table-bordered > tfoot > tr > td {
+  border: 3px solid #e44082; }
 table th {
-  width: 100px; }
+  width: 100px;
+  font-family: "Oswald Heavy", sans-serif;
+  font-weight: bold;
+  color: #009ee0; }
   table th[colspan="2"] {
-    color: #009ee0; }
+    color: #dc0067;
+    font-size: 18px; }
 
 .greetings {
-  color: #009ee0;
+  color: #dc0067;
+  font-family: "Oswald Heavy", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right; }
+
+.back {
+  font-family: "Oswald Heavy", sans-serif;
   font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
