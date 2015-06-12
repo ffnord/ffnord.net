@@ -21,6 +21,12 @@ header {
     background-color: #ffffff;
     z-index: 1;
     text-align: center;
+
+    @media (max-width: $screen-sm-min) {
+        img {
+            max-width: 90%;
+        }
+    }
 }
 
 footer {
